@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Spark / checkpoints
+checkpoints/
+spark-warehouse/
+derby.log
+metastore_db/
+
+# Data & models
+data/
+models/
+
+# IDE
+.idea/
+.vscode/
+.DS_Store
