@@ -16,10 +16,13 @@ derby.log
 metastore_db/
 
 # Data & models
-data/
+data/*
+!data/sample_ticks.csv
 models/
+runs/
 
 # IDE
 .idea/
 .vscode/
 .DS_Store
+dist/
